@@ -18,7 +18,7 @@ class Rain_IntToFloat:
     def convert(self, input_int):
         return (float(input_int),)  # 将输入的 int 值转换为 float 并返回
  
-# 导出节点
+# 导出节点i
 NODE_CLASS_MAPPINGS = {
     "Rain_IntToFloat": Rain_IntToFloat
 }
